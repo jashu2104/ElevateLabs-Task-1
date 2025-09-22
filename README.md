@@ -27,7 +27,7 @@ nmap -sS -p 1-65535 192.168.1.0/24  # full TCP port range (slower)
 nmap -sU -p 1-1024 192.168.1.0/24   # UDP scan (requires sudo/root)
 nmap -sS -A 192.168.1.0/24    # aggressive scan (service detection, OS detect)
 ---
-
+```
 # Wireshark Analysis
 
 In addition to Nmap scanning, I captured network traffic using **Wireshark** and saved it in  
